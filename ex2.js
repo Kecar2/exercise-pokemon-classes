@@ -23,6 +23,9 @@ class Pokemon {
         this.ataque = ataque
         this.defensa = defensa
     }
+    atacar(){
+        
+    }
 }
 
 let bulbasaur = new Pokemon(1, "Bulbasaur", ['Grass', 'Poison'], 45, 49, 49)

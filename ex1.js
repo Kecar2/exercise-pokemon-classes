@@ -15,8 +15,16 @@
  */
 
 class Pokemon {
+    constructor(Identificador, Nombre, Tipo, VidaMax, PoderAtaque, PoderDefensa) {
+        this.Identificador = Identificador;
+        this.Nombre = Nombre;
+        this.Tipo = Tipo;
+        this.VidaMax = VidaMax;
+        this.PoderAtaque = PoderAtaque;
+        this.PoderDefensa = PoderDefensa;
+    }
 }
 
 // TEST----
-// let pokemon = new Pokemon(890, "Eternatus", ['Poison', 'Dragon'], 255, 115, 250)
-// console.log(pokemon)
+ let pokemon = new Pokemon(890, "Eternatus", ['Poison', 'Dragon'], 255, 115, 250)
+ console.log(pokemon)
